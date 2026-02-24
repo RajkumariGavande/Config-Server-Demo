@@ -1,4 +1,4 @@
 server:
-  port: 8085
+  port: 8081
   
 msg : "Welcome to Spring Boot Cart Service"
