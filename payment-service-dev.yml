@@ -4,7 +4,7 @@
     name: payment-service
 
   datasource:
-    url: jdbc:h2:mem:paymentdb;MODE=MySQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    url: jdbc:h2:mem:paymentdb
     driver-class-name: org.h2.Driver
     username: sa
     password:
