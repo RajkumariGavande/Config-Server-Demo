@@ -4,6 +4,7 @@ spring:
   application:
     name: payment-service
 
+  profiles: dev
   datasource:
     url: jdbc:mysql://localhost:3306/testdb
     username: root
