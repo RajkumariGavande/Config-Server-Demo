@@ -1,4 +1,4 @@
 server:
-  port: 8083
+  port: 8084
   
 msg : "Welcome to Spring Boot Cart Service-REST-API"
