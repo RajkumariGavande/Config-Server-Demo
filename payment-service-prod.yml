@@ -1,9 +1,10 @@
 server:
   port: 8081
+
 spring:
   application:
     name: payment-service
-  
+
   datasource:
     url: jdbc:mysql://localhost:3306/testdb
     username: root
@@ -12,8 +13,9 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: update     # create | create-drop | update | validate
+      ddl-auto: update
     show-sql: true
+    open-in-view: false
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
@@ -21,7 +23,7 @@ spring:
 
   sql:
     init:
-      mode: always
+      mode: never
 
 # Custom message
 msg: "Welcome to Spring Boot with Config server"
